@@ -106,8 +106,17 @@ const HomePage = () => {
       console.log(error);
     }
   };
+  const temp = ["today", "is", "my", "interview"];
   return (
     <Layout title={"All Products - Best offers "}>
+      <div className="array">
+        {temp.map((str) => {
+          <ul>
+            <li>{str}</li>
+          </ul>;
+        })}
+      </div>
+      {/*       
       {/* banner image */}
       <img
         src="/images/banner.png"
@@ -116,7 +125,6 @@ const HomePage = () => {
         width={"100%"}
       />
       {/* banner image */}
-
       <div className="container-fluid row mt-3 home-page">
         <div className="col-md-3 filters">
           <h4 className="text-center">Filter By Category</h4>
@@ -220,7 +228,8 @@ const HomePage = () => {
             )}
           </div>
         </div>
-      </div>
+      </div>{" "}
+      */
     </Layout>
   );
 };

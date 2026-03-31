@@ -17,12 +17,8 @@ app.use(morgan("dev"));
 app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/category", categoryRoutes);
 app.use("/api/v1/products", productRoutes);
-//mmiddleware for cors error
+//middleware for cors error
 app.use(cors());
-//sample api route
-// app.use('*',function(req,res){
-//    res.sendFile(path.join(__dirname,'./client/build/index.html'))
-// })
 const port = process.env.PORT || 8080;
 app.listen(port, () => {
   console.log(`server running on port ${port}`.bgCyan.white);

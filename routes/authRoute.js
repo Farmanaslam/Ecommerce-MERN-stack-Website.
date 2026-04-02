@@ -45,7 +45,7 @@ router.put(
   "/order-status/:orderId",
   requireSignIn,
   isAdmin,
-  orderStatusController
+  orderStatusController,
 );
 
 export default router;

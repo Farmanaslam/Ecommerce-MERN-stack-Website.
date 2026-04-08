@@ -8,7 +8,7 @@ A full-featured **E-commerce Web Application** built using the **MERN Stack** (M
 
 ### 👤 User Features
 
-* 🔐 Secure Authentication (JWT आधारित)
+* 🔐 Secure Authentication (JWT Based)
 * 🛍️ Browse products across multiple categories (10+)
 * 🔎 Search & filter products
 * 🛒 Add to Cart / Remove from Cart
